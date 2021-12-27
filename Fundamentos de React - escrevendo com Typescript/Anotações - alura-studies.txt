@@ -1,0 +1,16 @@
+para usar styles.module.scss
+
+https://www.npmjs.com/package/typescript-plugin-css-modules
+
+--> instalar: yarn add -D typescript-plugin-css-modules
+--> dentro do tsconfig.json:
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
+
+--> importar o css dentro do arquivo tsx assim ==> import style from './style.module.scss';
+--> chamar o style no html ==> <div className={style.AppStyle}>
+Obs: caso a classe estievrt um ifem Ex: App-Style, não dá para usar className={style.App-Style}
+deve usar assim className={style["App-Style"]}
