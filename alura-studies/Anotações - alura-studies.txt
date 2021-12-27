@@ -1,3 +1,6 @@
+Curso da ALura => Fundamentos de React: escrevendo com Typescript
+
+
 para usar styles.module.scss
 
 https://www.npmjs.com/package/typescript-plugin-css-modules
