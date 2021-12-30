@@ -1,0 +1,7 @@
+Curso da ALura => React: Gerenciamento de estados globais com ContextAPI
+
+arquivo jsconfig.json
+// este arquivo serve para qdo for importar algum componente de pasta diferente, ñ precisar passar todo o caminho até chegar no componente
+// Ex: estou dentro de um componente da pasta components, tenho que importar um componente dentro da pasta common
+// em vez de importar 'import from ../../../../common/arquivo' eu faço assim 'cammon/arquivo'
+
